@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function details() {
+var fname = document .getElementById("firstname").value;
+var lname = document .getElementById("lastname").value
+var person = { fname , lname } // make object
+document.getElementById("Name").textContent = person.fname +
+" " + person.lname ;
+// get the value from object and property
+// person is object and fname is property
+}
+</script
+</head>
+<body>
+First Name : <input id="firstname" /> <br>
+Last Name : <inputid="lastname" /> <br>
+<button onclick="details()">submit</button>
+<div id="Name">
+</body>
+</html>
